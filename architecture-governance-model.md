@@ -6,6 +6,10 @@ Architecture governance exists to enable better decisions, reduce unnecessary co
 
 Governance should provide guidance and guardrails rather than create bureaucracy.
 
+> Architecture governance is not about controlling teams.
+>
+> It is about enabling better decisions through principles, guardrails, transparency, and shared accountability.
+
 ---
 
 ## Principles
@@ -34,28 +38,31 @@ Governance should support continuous evolution rather than periodic redesign.
 
 ## Governance Structure
 
+Governance forums support decision-making, but accountability remains with the defined roles.
+
 | Forum | Purpose | Participants |
-|---|---|---|
+|--------|---------|-------------|
 | Architecture Community | Knowledge sharing and alignment | IT Architect, Delivery Team |
 | Architecture Review Board | Significant design decisions, exceptions, and cross-domain alignment | IT Architect, IT Management, Delivery Team |
 | Portfolio Governance | Investment and prioritization alignment | Board, IT Management |
 
 ---
 
-## IT Governance Decision Rights
+## Architecture Governance Decision Rights
 
 | Decision Type | Owner |
-|---|---|
+|--------------|--------|
 | Business Strategy | Board |
 | Investment Decisions | Board / IT Management |
 | Technology Strategy | IT Management |
-| Architecture Principles | IT Architect |
+| Architecture Principles | IT Management |
+| Architecture Standards | IT Management |
+| Cross-Domain Architecture | IT Management |
+| Architecture Exceptions | IT Management |
 | Target Architecture | IT Architect |
-| Technology Standards | IT Architect |
-| Cross-Domain Architecture | IT Architect |
+| Architecture Roadmaps | IT Architect |
 | Solution Design | Delivery Team |
 | Technology Selection | Delivery Team |
-| Architecture Exceptions | IT Management |
 | Product Decisions | Delivery Team |
 
 ---
@@ -106,7 +113,7 @@ Exceptions should be:
 ### Exception Template
 
 | Item | Value |
-|---|---|
+|------|-------|
 | Exception | |
 | Business Reason | |
 | Risk | |
@@ -163,7 +170,7 @@ Example indicators:
 
 Provides strategic direction and approves significant investments.
 
-Responsibilities:
+**Responsibilities**
 
 - Define strategic objectives
 - Approve major investments
@@ -172,12 +179,13 @@ Responsibilities:
 
 ### IT Management
 
-Owns technology strategy, operating model, governance processes, and delivery performance.
+Owns technology strategy, governance processes, delivery performance, and technology investment decisions.
 
-Responsibilities:
+**Responsibilities**
 
 - Define technology priorities
 - Establish governance processes
+- Approve architecture principles and standards
 - Allocate funding and resources
 - Manage technology risk
 - Ensure alignment between architecture and delivery
@@ -186,21 +194,21 @@ Responsibilities:
 
 Acts as a facilitator, advisor, and steward of architectural integrity.
 
-Responsibilities:
+**Responsibilities**
 
-- Define architecture principles and guardrails
+- Define and maintain architecture principles and guardrails
 - Support strategic planning and investment decisions
 - Facilitate architecture reviews
 - Assess risks, trade-offs, and dependencies
 - Maintain target architecture and architecture roadmaps
 - Support delivery teams with architectural guidance
-- Escalate architectural concerns when required
+- Identify and escalate architectural concerns
 
 ### Delivery Team
 
 Owns solution design, implementation, and operational outcomes.
 
-Responsibilities:
+**Responsibilities**
 
 - Design and implement solutions
 - Operate within architectural guardrails
