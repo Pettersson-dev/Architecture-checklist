@@ -2,7 +2,7 @@
 
 Welcome to the Architecture Governance Framework.
 
-This repository provides a structured set of architecture assessment checklists that can be used during procurement, solution evaluation, architecture reviews, design reviews, and governance activities.
+This repository provides practical checklists, templates, and governance guidance that can be used during procurement, solution evaluation, architecture reviews, system onboarding, design reviews, and governance activities.
 
 The objective is to establish a consistent architecture review process that helps answer three fundamental questions:
 
@@ -62,6 +62,80 @@ Typical use cases include:
 
 ---
 
+## System Onboarding Checklist
+
+The System Onboarding Checklist provides a structured assessment when introducing, acquiring, inheriting, or evaluating a system.
+
+Areas covered include:
+
+- Business ownership
+- Architecture documentation
+- Information management
+- Security
+- Integrations
+- Operations
+- Vendor management
+- Governance readiness
+
+Typical use cases include:
+
+- Vendor onboarding
+- SaaS adoption
+- Mergers and acquisitions
+- Platform transitions
+- Operational handovers
+
+**File**
+
+- [System Onboarding Checklist](./system-onboarding-checklist.md)
+
+---
+
+## Architecture Review Template
+
+The Architecture Review Template provides a structured format for documenting architecture reviews, findings, risks, decisions, and recommendations.
+
+Typical use cases include:
+
+- Architecture Review Boards
+- Design reviews
+- Technical due diligence
+- Solution assessments
+- Governance reviews
+
+**File**
+
+- [Architecture Review Template](./architecture-review-template.md)
+
+---
+
+## Architecture Governance Framework
+
+The Architecture Governance Framework describes governance structures, decision rights, review processes, responsibilities, and architectural guardrails.
+
+Areas covered include:
+
+- Governance principles
+- Decision rights
+- Review triggers
+- Exception management
+- Governance metrics
+- Roles and responsibilities
+
+Typical use cases include:
+
+- Establishing architecture governance
+- Defining decision ownership
+- Creating Architecture Review Boards
+- Federated architecture models
+- Technology governance
+
+**File**
+
+- [Architecture Governance Framework](./architecture-governance-model.md)
+
+---
+
 # Suggested Review Process
 
 New solutions should typically be assessed using the following sequence:
@@ -71,63 +145,12 @@ Business Need
       ↓
 Overview Checklist
       ↓
+System Onboarding Checklist
+      ↓
 IT Architecture Checklist
+      ↓
+Architecture Review Template
       ↓
 Architecture Decision
       ↓
 Implementation and Governance
-```
-
----
-
-# Architecture Principles
-
-All assessments should be evaluated against applicable architecture principles, including:
-
-- Business Value First
-- Buy Before Build
-- Reuse Before Buy
-- SaaS First
-- Cloud First
-- API First
-- Event-Driven Architecture
-- Security by Design
-- Domain Ownership
-- Loosely Coupled Systems
-- Automation First
-
----
-
-# Decision Outcomes
-
-Each assessment should result in one of the following outcomes:
-
-| Decision | Description |
-|-----------|-------------|
-| Approve | Solution aligns with architecture objectives and standards. |
-| Approve with Conditions | Solution may proceed after identified actions have been completed. |
-| Reassess | Additional analysis or clarification is required. |
-| Reject | Solution does not align with architecture principles, standards, or target state. |
-
----
-
-# Intended Audience
-
-This framework is intended for:
-
-- Enterprise Architects
-- Chief Architects
-- Domain Architects
-- Solution Architects
-- Platform Architects
-- Architecture Review Boards
-- Technology Leadership Teams
-- Procurement and Vendor Review Teams
-
----
-
-# Guiding Principle
-
-> Architecture is not about approving technology.
->
-> Architecture is about enabling business outcomes while managing complexity, risk, cost, and change over time.
