@@ -150,29 +150,74 @@ Change Effectiveness
 
 ## Roles and Responsibilities
 
-Enterprise Architect
+### Board
 
-* Define principles and guardrails
-* Facilitate strategic alignment
-* Support investment decisions
+Provides strategic direction and approves significant investments.
 
-Domain Architect
+Responsibilities:
 
-* Guide domain evolution
-* Support delivery teams
-* Ensure alignment with target architecture
+* Define strategic objectives
+* Approve major investments
+* Accept strategic risks
+* Ensure alignment between business strategy and technology strategy
 
-Solution Architect
 
-* Design solution implementations
+### IT Management
+
+Owns technology strategy, operating model, governance processes, and delivery performance.
+
+Responsibilities:
+
+* Define technology priorities
+* Establish governance processes
+* Allocate funding and resources
+* Manage technology risk
+* Ensure alignment between architecture and delivery
+
+
+### IT Architect
+
+Acts as a facilitator, advisor, and steward of architectural integrity.
+
+Responsibilities:
+
+* Define architecture principles and guardrails
+* Support strategic planning and investment decisions
+* Facilitate architecture reviews
+* Assess risks, trade-offs, and dependencies
+* Maintain target architecture and architecture roadmaps
+* Support delivery teams with architectural guidance
+* Escalate architectural concerns when required
+
+
+### Delivery Team
+
+Owns solution design, implementation, and operational outcomes.
+
+Responsibilities:
+
+* Design and implement solutions
+* Operate within architectural guardrails
 * Manage solution-level trade-offs
 * Document significant decisions
+* Operate and support delivered solutions
+* Escalate exceptions and risks when required
 
-Engineering Teams
-
-* Own implementation decisions
-* Operate within architectural guardrails
-* Escalate exceptions when required
+---
+## Decision Ownership
+| Decision Type | Owner |
+|--------------|--------|
+| Business Strategy | Board |
+| Technology Strategy | IT Management |
+| Architecture Principles | IT Architect |
+| Target Architecture | IT Architect |
+| Solution Design | Delivery Team |
+| Technology Selection | Delivery Team |
+| Architecture Exceptions | IT Management |
+| Investment Decisions | Board / IT Management |
+Architecture governance is most effective when decision ownership is clear and accountability remains close to delivery.
+:::
+Det här ligger också mycket närmare hur du beskriver arkitektur som en **förmåga** snarare än en separat organisation. Arkitekten blir då en möjliggörare och steward, inte en godkännandeinstans. Det passar dessutom väl med hur du tänker kring federerad arkitektur och rollen du går in i på Gotlandsbolaget.
 
 ⸻
 
