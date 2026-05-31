@@ -1,4 +1,4 @@
-# Architecture Governance Model
+# Architecture Governance Framework
 
 ## Purpose
 
