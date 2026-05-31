@@ -1,7 +1,6 @@
-
 # Architecture Governance Model
 
-Purpose
+## Purpose
 
 Architecture governance exists to enable better decisions, reduce unnecessary complexity, and ensure that technology investments support business objectives.
 
@@ -9,51 +8,51 @@ Governance should provide guidance and guardrails rather than create bureaucracy
 
 ⸻
 
-Principles
+## Principles
 
 Architecture as a Capability
 
 Architecture is a shared organizational capability, not solely the responsibility of architects.
 
-Governance by Guardrails
+### Governance by Guardrails
 
 Teams should operate with autonomy within agreed principles, standards, and decision boundaries.
 
-Decisions over Documents
+### Decisions over Documents
 
 The primary output of governance is better decisions, not additional documentation.
 
-Transparency
+### Transparency
 
 Architectural decisions, risks, and exceptions should be visible and traceable.
 
-Continuous Change
+### Continuous Change
 
 Governance should support continuous evolution rather than periodic redesign.
 
 ⸻
 
-Governance Structure
+## Governance Structure
 
-Forum	Purpose	Participants
-Architecture Community	Knowledge sharing and alignment	Architects, Tech Leads
-Architecture Review Board (ARB)	Significant design decisions	Architects, Engineering, Security
-Portfolio Governance	Investment and prioritization alignment	Business and IT Leadership
-
-⸻
-
-Decision Rights
-
-Decision Type	Owner
-Product Decisions	Product Owner
-Solution Design	Delivery Team
-Cross-Domain Architecture	Architecture Review Board
-Technology Standards	Architecture Community
-Architecture Principles	Enterprise Architecture
+###Forum: Purpose and Participants
+Architecture Community: Knowledge sharing and alignment, Architects, Tech Leads
+Architecture Review Board (ARB): Significant design decisions,	Architects, Engineering, Security
+Portfolio Governance: Investment and prioritization alignment, 	Business and IT Leadership
 
 ⸻
 
-Architecture Review Triggers
+## Decision Rights
+
+Decision Type:Owner
+Product Decisions: Product Owner
+Solution Design: Delivery Team
+Cross-Domain Architecture: Architecture Review Board
+Technology Standards: Architecture Community
+Architecture Principles: Enterprise Architecture
+
+⸻
+
+## Architecture Review Triggers
 
 A review should be considered when:
 
@@ -66,7 +65,7 @@ A review should be considered when:
 
 ⸻
 
-Architecture Review Outcomes
+## Architecture Review Outcomes
 
 Approved
 
@@ -86,7 +85,7 @@ A temporary exception is approved with defined review criteria and expiration da
 
 ⸻
 
-Exception Management
+## Exception Management
 
 Exceptions should be:
 
@@ -107,7 +106,7 @@ Expiry Date
 
 ⸻
 
-Architecture Artifacts
+## Architecture Artifacts
 
 The following artifacts are recommended where relevant:
 
@@ -123,7 +122,7 @@ Artifacts should support decisions and communication rather than become objectiv
 
 ⸻
 
-Governance Metrics
+## Governance Metrics
 
 Example indicators:
 
@@ -149,7 +148,7 @@ Change Effectiveness
 
 ⸻
 
-Roles and Responsibilities
+## Roles and Responsibilities
 
 Enterprise Architect
 
@@ -177,7 +176,7 @@ Engineering Teams
 
 ⸻
 
-Success Criteria
+## Success Criteria
 
 Architecture governance is successful when:
 
