@@ -1,87 +1,92 @@
-
 # System Onboarding Checklist
 
 Use this checklist when introducing, acquiring, inheriting, or assessing a system.
 
-⸻
+---
 
-Business
+## Business
 
-* Business owner identified
-* Service owner identified
-* Business capability mapped
-* Criticality classified
-* Business processes identified
+- [ ] Business owner identified
+- [ ] Service owner identified
+- [ ] Business capability mapped
+- [ ] Criticality classified
+- [ ] Business processes identified
 
-⸻
+---
 
-Architecture
+## Architecture
 
-* Context diagram available
-* System boundaries defined
-* Dependencies documented
-* Technology stack documented
-* Architecture principles reviewed
+- [ ] Context diagram available
+- [ ] System boundaries defined
+- [ ] Dependencies documented
+- [ ] Technology stack documented
+- [ ] Architecture principles reviewed
 
-⸻
+---
 
-Data
+## Data
 
-* Information owner identified
-* Data classification completed
-* Data retention documented
-* Master data ownership defined
-* Regulatory requirements identified
+- [ ] Information owner identified
+- [ ] Data classification completed
+- [ ] Data retention documented
+- [ ] Master data ownership defined
+- [ ] Regulatory requirements identified
 
-⸻
+---
 
-Security
+## Security
 
-* Authentication documented
-* Authorization model documented
-* Security assessment completed
-* Vulnerability management defined
-* Audit requirements identified
+- [ ] Authentication documented
+- [ ] Authorization model documented
+- [ ] Security assessment completed
+- [ ] Vulnerability management defined
+- [ ] Audit requirements identified
 
-⸻
+---
 
-Integrations
+## Integrations
 
-* Integrations documented
-* API ownership defined
-* Data exchange documented
-* Failure scenarios reviewed
+- [ ] Integrations documented
+- [ ] API ownership defined
+- [ ] Data exchange documented
+- [ ] Failure scenarios reviewed
 
-⸻
+---
 
-Operations
+## Operations
 
-* Monitoring available
-* Logging available
-* Backup strategy documented
-* Disaster recovery documented
-* Support model defined
+- [ ] Monitoring available
+- [ ] Logging available
+- [ ] Backup strategy documented
+- [ ] Disaster recovery documented
+- [ ] Support model defined
 
-⸻
+---
 
-Vendor Management
+## Vendor Management
 
-* Contract documented
-* SLA documented
-* Escalation path defined
-* Exit strategy documented
+- [ ] Contract documented
+- [ ] SLA documented
+- [ ] Escalation path defined
+- [ ] Exit strategy documented
 
-⸻
+---
 
-Governance
+## Governance
 
-* Architecture review completed
-* Risks documented
-* Decisions recorded
-* Ownership accepted
+- [ ] Architecture review completed
+- [ ] Risks documented
+- [ ] Decisions recorded
+- [ ] Ownership accepted
 
-Result
+---
 
-* Approved
-* Approved with Conditions
-* Rework Required
+## Result
+
+- [ ] Approved
+- [ ] Approved with Conditions
+- [ ] Rework Required
+
+### Notes
+
+Document any assumptions, identified risks, dependencies, remediation actions, or follow-up activities required before onboarding.
