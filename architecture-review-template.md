@@ -2,110 +2,116 @@
 
 ## Overview
 
-Item	Value
-Review Name	
-System	
-Business Capability	
-Review Date	
-Reviewer(s)	
-Status	Draft / Approved / Rework Required
+| Item | Value |
+|------|-------|
+| Review Name | |
+| System | |
+| Business Capability | |
+| Review Date | |
+| Reviewer(s) | |
+| Status | Draft / Approved / Rework Required |
 
-⸻
+---
 
-Business Context
+## Business Context
 
-Purpose
+### Purpose
 
 Describe the business objective and expected outcome.
 
-Scope
+### Scope
 
 Describe what is included and excluded from this review.
 
-Stakeholders
+### Stakeholders
 
-* Business Owner
-* Service Owner
-* Product Owner
-* Architect
+- Business Owner
+- Service Owner
+- Product Owner
+- Architect
 
-⸻
+---
 
-Architecture Summary
+## Architecture Summary
 
-Architecture Overview
+### Architecture Overview
 
 Provide a high-level description of the solution.
 
-Key Components
+### Key Components
 
-* Component 1
-* Component 2
+- Component 1
+- Component 2
 
-Integrations
+### Integrations
 
-Integration	Direction	Purpose
-		
+| Integration | Direction | Purpose |
+|-------------|-----------|---------|
+| | | |
 
-Data Flows
+### Data Flows
 
 Describe key information flows.
 
-⸻
+---
 
-Review Areas
+## Review Areas
 
-Business Alignment
+### Business Alignment
 
-* Supports business objectives
-* Capability alignment confirmed
-* Ownership established
+- [ ] Supports business objectives
+- [ ] Capability alignment confirmed
+- [ ] Ownership established
 
-Architecture
+### Architecture
 
-* Architecture principles followed
-* Dependencies identified
-* System boundaries defined
+- [ ] Architecture principles followed
+- [ ] Dependencies identified
+- [ ] System boundaries defined
 
-Security
+### Security
 
-* Authentication reviewed
-* Authorization reviewed
-* Security risks identified
+- [ ] Authentication reviewed
+- [ ] Authorization reviewed
+- [ ] Security risks identified
 
-Data
+### Data
 
-* Data ownership defined
-* Classification documented
-* Retention requirements understood
+- [ ] Data ownership defined
+- [ ] Classification documented
+- [ ] Retention requirements understood
 
-Operations
+### Operations
 
-* Monitoring available
-* Logging available
-* Support model defined
+- [ ] Monitoring available
+- [ ] Logging available
+- [ ] Support model defined
 
-⸻
+---
 
-Risks
+## Risks
 
-Risk	Impact	Mitigation
-		
+| Risk | Impact | Mitigation |
+|------|--------|------------|
+| | | |
 
-⸻
+---
 
-Decisions
+## Decisions
 
-Decision	Owner	Status
-		
+| Decision | Owner | Status |
+|----------|--------|--------|
+| | | |
 
-⸻
+---
 
-Recommendation
+## Recommendation
 
-* Approve
-* Approve with Conditions
-* Rework Required
-* Reject
+- [ ] Approve
+- [ ] Approve with Conditions
+- [ ] Rework Required
+- [ ] Reject
 
-Comments
+### Comments
+
+Add any additional observations, concerns, assumptions, dependencies, or follow-up actions.
