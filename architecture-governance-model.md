@@ -43,12 +43,18 @@ Portfolio Governance: Investment and prioritization alignment, 	Business and IT 
 
 ## Decision Rights
 
-Decision Type:Owner
-Product Decisions: Product Owner
-Solution Design: Delivery Team
-Cross-Domain Architecture: Architecture Review Board
-Technology Standards: Architecture Community
-Architecture Principles: Enterprise Architecture
+Decision Type	Owner
+Business Strategy	Board
+Investment Decisions	Board / IT Management
+Technology Strategy	IT Management
+Architecture Principles	IT Architect
+Target Architecture	IT Architect
+Technology Standards	IT Architect
+Cross-Domain Architecture	IT Architect
+Solution Design	Delivery Team
+Technology Selection	Delivery Team
+Architecture Exceptions	IT Management
+Product Decisions	Delivery Team
 
 ⸻
 
