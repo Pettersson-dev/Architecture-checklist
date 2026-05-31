@@ -56,14 +56,35 @@ Governance forums support decision-making, but accountability remains with the d
 | Investment Decisions | Board / IT Management |
 | Technology Strategy | IT Management |
 | Architecture Principles | IT Management |
-| Architecture Standards | IT Management |
-| Cross-Domain Architecture | IT Management |
-| Architecture Exceptions | IT Management |
+| Architecture Standards | IT Architect |
 | Target Architecture | IT Architect |
 | Architecture Roadmaps | IT Architect |
+| Cross-Domain Architecture | IT Architect |
+| Architecture Exceptions | IT Management |
 | Solution Design | Delivery Team |
 | Technology Selection | Delivery Team |
 | Product Decisions | Delivery Team |
+
+---
+
+## Architecture Principles
+
+Architecture decisions should be evaluated against applicable principles.
+
+Examples include:
+
+- Business Value First
+- Buy Before Build
+- Reuse Before Buy
+- SaaS First
+- Cloud First
+- API First
+- Event-Driven Architecture
+- Security by Design
+- Domain Ownership
+- Loosely Coupled Systems
+- Automation First
+- Observable Systems
 
 ---
 
@@ -185,7 +206,7 @@ Owns technology strategy, governance processes, delivery performance, and techno
 
 - Define technology priorities
 - Establish governance processes
-- Approve architecture principles and standards
+- Approve architecture principles
 - Allocate funding and resources
 - Manage technology risk
 - Ensure alignment between architecture and delivery
@@ -196,7 +217,7 @@ Acts as a facilitator, advisor, and steward of architectural integrity.
 
 **Responsibilities**
 
-- Define and maintain architecture principles and guardrails
+- Define and maintain architecture standards and guardrails
 - Support strategic planning and investment decisions
 - Facilitate architecture reviews
 - Assess risks, trade-offs, and dependencies
